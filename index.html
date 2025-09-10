@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>✨ Interactive Web Page with JavaScript ✨</h1>
+
+  <!-- FORM SECTION (Part 3) -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+      <button type="button" id="togglePwd">👁 Show/Hide</button><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- INTERACTIVE ELEMENT 1 (Part 1 + 2) -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="countBtn">Click Me!</button>
+    <p>You've clicked the button <span id="clickCount">0</span> times.</p>
+  </section>
+
+  <!-- INTERACTIVE ELEMENT 2 (Part 1 + 2) -->
+  <section>
+    <h2>Light / Dark Mode Toggle</h2>
+    <button id="toggleTheme">🌙 Toggle Dark Mode</button>
+  </section>
+
+  <!-- INTERACTIVE ELEMENT 3 (Bonus creativity) -->
+  <section>
+    <h2>FAQ Section</h2>
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript? ⬇</h3>
+      <p class="faq-answer">JavaScript is a programming language that makes websites interactive!</p>
+    </div>
+    <div class="faq">
+      <h3 class="faq-question">What is DOM Manipulation? ⬇</h3>
+      <p class="faq-answer">It’s the way JavaScript changes HTML and CSS on a webpage dynamically.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
